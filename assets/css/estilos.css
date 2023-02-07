@@ -1,1 +1,106 @@
+body{
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
+    color: #465946;
+    text-align: justify;
+}
+
+#contenedor {
+    padding: 0;
+    margin-top: 50px;
+}
+
+#header {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+#linea {
+    width: 580px;
+    height: 5px;
+    margin-top: 20px;
+    background: #7e94ff;
+}
+#nombre {
+    font-family: "Raleway", "Helvetica Neue";
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#description {
+    letter-spacing: 0.3em;
+    margin-top: 30px;
+    font-size: 2.2 em;
+}
+
+#foto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 130px;
+    height: 130px;
+
+    border: 3px solid #465946;
+}
+
+#Repositorio-GitHub {
+    width: 130px;
+    height: 130px;
+}
+
+
+#experiencia {
+    background: #465946;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+#experiencia-contenedor {
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+}
+
+#ui {
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#encabezado {
+    margin-top: 0px;
+}
+
+#progress-bar {
+    background: #a3b1f8;
+    height: 10px;
+    margin-top: 5px;
+    width: 100px;
+}
+
+#progress{
+    background: #69729e;
+    height: 10px;
+    width: 55px;
+}
+
+#head {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
 

@@ -5,7 +5,7 @@ body{
 }
 
 #contenedor {
-    padding: 0;
+    padding: 5;
     margin-top: 50px;
 }
 
@@ -14,12 +14,6 @@ body{
     grid-template-columns: 2fr 5fr;
 }
 
-#linea {
-    width: 580px;
-    height: 5px;
-    margin-top: 20px;
-    background: #7e94ff;
-}
 #nombre {
     font-family: "Raleway", "Helvetica Neue";
     text-transform: uppercase;
@@ -70,22 +64,16 @@ body{
 
 .content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
 }
 
 #encabezado {
     margin-top: 0px;
 }
 
-#progress-bar {
-    background: #a3b1f8;
-    height: 10px;
-    margin-top: 5px;
-    width: 100px;
-}
 
 #progress{
-    background: #69729e;
+    background: #ffffffcf;
     height: 10px;
     width: 55px;
 }

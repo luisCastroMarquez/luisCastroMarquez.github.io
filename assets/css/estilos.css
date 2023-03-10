@@ -87,7 +87,26 @@ ul {
     padding: 0;
 }
 
+@media (min-width: 576px) {
+    body {
+        grid-template-areas:
+            "navbar navbar"
+            "row-1 row-2"
+            "footer footer";
+        grid-template-columns: 200px auto;
+        grid-template-rows: 80px calc(100vh - 160px) 80px;
+    }
+}
 
+
+@media (min-width: 972px) {
+    body {
+        grid-template-areas:
+        "navbar navbar"
+        "sidebar productos"
+        "footer footer";
+    }
+}
 
 
 
